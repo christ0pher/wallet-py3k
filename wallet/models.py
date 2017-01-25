@@ -129,7 +129,7 @@ class Location(object):
         self.relevantText = ''
 
     def json_dict(self):
-        return self.__dict__
+        return [self.__dict__]
 
 
 class IBeacon(object):
